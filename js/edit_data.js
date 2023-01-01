@@ -68,7 +68,7 @@ updateBtn.addEventListener("click", function(event){
 
 
 let passViewCount = 0;
-hideViewBtn.addEventListener('input', function(){
+hideViewBtn.addEventListener('click', function(){
 	passViewCount = passViewCount + 1;
 
 	if (passViewCount == 1) {
