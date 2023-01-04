@@ -32,6 +32,7 @@
 				$sqlData = "UPDATE data SET `FullName`= '$fullName',`EmailAddress`='$emailAddress',`PhoneNumber`= '$phoneNumber',`Gender`= '$gender',`Password`= '$password' WHERE ID = $linkId";
 		    	$sqlDataQuery = mysqli_query($connectDB, $sqlData);
 		    	header("Refresh:0");
+			header("Location: index.php");
 
 			}
 		}
